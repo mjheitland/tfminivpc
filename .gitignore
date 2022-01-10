@@ -1,6 +1,7 @@
 out/
 
 # Local .terraform directories
+.terraform
 **/.terraform/*
 
 # macos-specific file
