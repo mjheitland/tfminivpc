@@ -1,7 +1,7 @@
 module "vpc" {
   # source = "../"
   # source = "git::https://github.com/mjheitland/tfminivpc.git?ref=1.0.1"
-  source = "heitland-it.de/mjheitland/tfminivpc/aws"
+  source = "r53.heitland-it.de/mjheitland/tfminivpc/aws"
 
   cidr_block = var.cidr_block
 
