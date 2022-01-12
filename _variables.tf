@@ -3,6 +3,11 @@ variable "cidr_block" {
   description = "CIDR block for VPC"
 }
 
+variable "tags" {
+  type        = map(string)
+  description = "Mandatory tags for VPC"
+}
+
 locals {
   version = "1.0.2"
 }
