@@ -3,9 +3,13 @@ terraform {
 
   required_providers {
     aws = {
-      # source  = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = ">= 3.71"
     }
+    # myvpc = {
+    #   source  = "r53.heitland-it.de/mjheitland/tfminivpc/aws"
+    #   version = "= 1.0.1"
+    # }
   }
 }
 
